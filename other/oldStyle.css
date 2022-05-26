@@ -1,0 +1,120 @@
+body {
+  height: 100%
+}
+
+.thumbsBox {
+  width: 50%;
+  height: 50%;
+}
+
+.pTop {
+  position: absolute;
+  top: 0px;
+}
+
+.pBot {
+  position: absolute;
+  bottom: 0px;
+}
+
+.pLeft {
+  position: absolute;
+  left: 0px;
+}
+
+.pRight {
+  position: absolute;
+  right: 0px;
+}
+
+#tUp {
+  background-color: #008000;
+  font-size: 64px;
+  border: 16px solid #000000;
+}
+
+#tDown {
+  background-color: #B22222;
+  font-size: 64px;
+  border: 16px solid #000000;
+}
+
+#tWiggle {
+  background-color: #4682B4;
+  font-size: 64px;
+  border: 16px solid #000000;
+}
+
+#tOops {
+  background-color: #FFFF00;
+  font-size: 64px;
+  border: 16px solid #000000;
+}
+
+#tUphover {
+  background-color: #7FFF00;
+  font-size: 64px;
+  border: 64px solid #000000;
+}
+
+#tDown:hover {
+  background-color: #CD5C5C;
+  font-size: 64px;
+  border: 16px solid #000000;
+}
+
+#tWiggle:hover {
+  background-color: #ADD8E6;
+  font-size: 64px border: 64px solid #000000;
+}
+
+#tOops:hover {
+  background-color: #F0E68C;
+  font-size: 64px;
+  border: 16px solid #000000
+}
+
+div {
+  background-color: white;
+}
+
+#content {
+  border: 15px solid #000000;
+  color: black
+}
+
+#headerBox {
+  border: 8px solid;
+  color: #000000;
+  font-size: 36px;
+  background-color: #CD6F6F;
+  margin: 20px;
+}
+
+.paraBox {
+  border: 6px solid #000000;
+  margin: 20px;
+  background-color: #48D1CC;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.child {
+  display: inline;
+}
+
+#navBox {
+  display: flex;
+  justify-content: space-around;
+  border: 8px solid #000000;
+  background-color: #4B0082;
+  margin: 20px
+}
+
+.links {
+  
+}

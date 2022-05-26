@@ -1,0 +1,66 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#content {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  margin-right: 150px;
+  margin-left: 150px;
+  border: 8px solid #000000;
+
+}
+
+#headerBox {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  text-align: center;
+  border: 8px dotted #000000;
+  padding-bottom: 20px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#menuBox {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  border: solid 8px #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: flex;
+  justify-content: space-around;
+}
+
+.linkBox {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  border: solid 5px #000000;
+  text-align: center;
+  display: inline-block;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  margin-left: 100px;
+  flex-wrap: flex;
+}
+
+.blogBox {
+  background-color: #2F4F4F;
+  color: #D3D3D3;
+  border: 4px solid #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15.075px;
+  box-shadow: 64px 128px #D3D3D3;
+}
+.blogBox img {
+  float: left;
+}
+#button {
+  background-color: #D3D3D3;
+}
